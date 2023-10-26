@@ -28,19 +28,19 @@ print("""selamat datang kamu masuk di aplikasi penghitung luas bangun datar
 pilihan = int(input("masukan pilihan kamu"))
 
 match pilihan :
-     case "1" : 
+     case 1 : 
          print("kamu memilih 1 untuk menghitung luas persegi") 
          sisi = int(input("masukan sisi?"))
          luasP= sisi * sisi
          print("luas persegi yang sisinya adalah",luasP)
           
-     case "2" :
+     case 2 :
          print("kamu memilih 2 untuk menghitung luas lingkaran")
          R = int(input("masukan jari-jari"))
          luasL= 3.14 * R * R
          print("luas lingkarang yang jari-jarinya", R, "adalah", int(luasL))
          
-     case "3" :
+     case 3 :
          print("kamu memilih 3 untuk menghitung luas segitiga")
          alas = int(input("masukan alas"))
          tinggi = int(input("masukan tinggi"))
@@ -49,21 +49,3 @@ match pilihan :
          
      case _: 
          print("kamu salah masukan pilihan")
-         
-# operasi = input("Menghitung luas bangun datar")
-# match operasi:
-#   case "1":
-#     sisi= int (input("masukan nilai sisi:"))
-#     luas= sisi*sisi
-#     print(luas)
-#   case "2":
-#     jari_jari= float(input("masukan nilai jari jari:"))
-#     luas= 3.14*jari_jari*jari_jari
-#     print(luas)
-#   case "3":
-#     alas= float(input("masukan nilai alas:"))
-#     tinggi= float(input("masukan nilai tinggi:"))
-#     luas= 0.5*alas*tinggi
-#     print(luas)  
-#   case _:
-#     print("salah pilih")
