@@ -64,7 +64,7 @@ bdk = badak ("badak", "tumbuhan", "daratan", "melahirkan", "berjalan", "paru-par
 bdk.print()
 
 #objek ikan
-ikn = ikan ("ikan", "daging", "air", "bertelur", "berenang", "ingsang")
+ikn = ikan ("ikan", "daging", "air", "bertelur", "berenang", "insang")
 ikn.print()
 
 #objek ular
